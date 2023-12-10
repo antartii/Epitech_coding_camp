@@ -1,0 +1,45 @@
+NOTES :
+
+le jeu du pendu :
+quand le program est lancé, le program doit attendre un input()
+au début l'input 1 sera le nombre de lettres dans le mot et le second input sera le nombre d'essai que la machine aura
+ensuite un fois lançé le program ne s'arréte pas tant qu'il n'as pas trouvé ou n'as plus assez de vie
+quand il n'as plus assez de vie le jeu affiche le pendu si il gagne il affiche le pendu qui court
+a chaque tour le pendu donne une lettre, si la lettre est dedans le player doit entrer 'yes [number]' pour dire l'emplacement de la lettre dans le mot sinon le player doit mettre 'non'
+lorsque le player met non, la machine perd une vie
+lorsqu'il met oui la machine affiche la lettre en plus dans le mot
+le mot doit etre afficher en permanence, si des lettres ne sont pas découvertes, la machine affiche "_" a la place de la lettre
+
+
+////////////////////////////////////////////////////
+
+SUJET FINAL
+
+LORE :
+tu as acheté un cadeau pour ton petit frére Tanehau, mais il veut absolument savoir quel cadeau tu lui as acheté, tu lui donnes donc un nombre de chance limité en jouant au jeu du pendu.
+Si il réussi, il peut ouvrir son cadeau en avance, si il fail il ouvrira comme tout le monde.
+illustrez le par le programme
+
+CONTEXTE :
+le but du jeu est de recoder le jeu du pendu en python.
+A la fin de ce program, vous recoderez une machine qui devras trouver le mot que le joueur à en tête.
+[SHOW UNE PHOTOT DU JEU DU PENDU OU ALORS DU RESULTAT DU JEU AVEC LE PENDU AFFICHER QUADN TU PERDS]
+
+Une fois lancé, le programme devras clear le terminal, puis demander 2 nombres.
+- Le premier nombre définira le nombre de lettre dans le mot
+- le second nombre définira le nombre de vie que la machine aura le droit avant que la machine perde au jeu du pendu
+
+Ensuite le programme devra afficher le mot à deviner en prenant en compte que chaque lettre qu'il ne connait pas encore sera affiché en '_'
+suivi du nombre de vie qu'il lui reste
+suivi de la lettre qu'il a deviner
+[SHOW SCREEN DE CE QUE JE VIENS DE PARLER]
+
+Le programme attendra donc une réponse:
+si l'user met "no" : la machine perdra une vie
+si l'user met "yes" suivi de chiffres : la machine ajoutera les lettres au mot à découvrir à l'emplacement des chiffres
+[SHOW PHOTO QUAND 2 LETTRES SONT DECOUVERTE SUR UN MOT RANDOM]
+
+si la machine découvre le mot :
+elle dit j'ai trouvé mon cadeau ! et arréte le programme
+si elle perd :
+elle dit mince je doit attendre pour connaitre mon cadeau ! et arrete le programme
