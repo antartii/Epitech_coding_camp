@@ -3,7 +3,7 @@
 import os # for the clear() function
 import random
 
-clear = lambda: os.system('cls') # can clear the window using clear()
+clear = lambda: os.system('clear') # can clear the window using clear()
 
 ############################    CODE BELOW    ############################
 # try si le str est un int ou non
