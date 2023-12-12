@@ -8,6 +8,10 @@ will print the stack parceque:
 
 LSSL
 
+Un "S" = un espace,
+un "T" = un tab,
+un "L" = un retour à la ligne
+
 
 SSSTL             just a variable that will always be at the end of the stack (= 0)
 SSSTTSSSTSL         "b" push at top stack
@@ -19,3 +23,87 @@ SSSTTSSSTSL         char 'b' push at top stack
 TTS                 store the item ???????? idk how it works
 SSSTTSSSTSL         char 'b' push at top stack
 TLSS                output it again
+
+le code suivant output merry christmas !!!
+utilise l'interpreter en ligne de whitespace : https://naokikp.github.io/wsi/whitespace.html
+
+SSSTSSTTSTL
+TLSS
+SSSTTSSTSTL
+TLSS
+SSSTTTSSTSL
+TLSS
+SSSTTTSSTSL
+TLSS
+SSSTTTTSSTL
+TLSS
+SSSTSSSSSL
+TLSS
+SSSTTSSSTTL
+TLSS
+SSSTTSTSSSL
+TLSS
+SSSTTTSSTSL
+TLSS
+SSSTTSTSSTL
+TLSS
+SSSTTTSSTTL
+TLSS
+SSSTTTSTSSL
+TLSS
+SSSTTSTTSTL
+TLSS
+SSSTTSSSSTL
+TLSS
+SSSTTTSSTTL
+TLSS
+SSSTSSSSSL
+TLSS
+SSSTSSSSTL
+TLSS
+SSSTSSSSTL
+TLSS
+SSSTSSSSTL
+TLSS
+
+ou ça :
+
+   	  		 	
+	
+     		  	 	
+	
+     			  	 
+	
+     			  	 
+	
+     				  	
+	
+     	     
+	
+     		   		
+	
+     		 	   
+	
+     			  	 
+	
+     		 	  	
+	
+     			  		
+	
+     			 	  
+	
+     		 		 	
+	
+     		    	
+	
+     			  		
+	
+     	     
+	
+     	    	
+	
+     	    	
+	
+     	    	
+	
+  
