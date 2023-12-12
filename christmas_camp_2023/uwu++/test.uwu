@@ -1,0 +1,40 @@
+UwU is this the correction of the cristmas camp?
+
+UwU is this the initialization of wariabwes ?
+branches iws 12
+k iws 0
+i iws 0
+
+UwU is this how we write a while loop ?
+OwO *notices i wess twan branches*
+    spaces iws 0
+    UwU is this how we initialize a array <size;type of value> ?
+    line iws awway<120;str>
+    OwO *notices spaces wess twan branches minwus i*
+        line[spaces] iws " "
+        spaces iws spaces pwus 1
+    stawp
+    dots iws 0
+    OwO *notices dots wess twan 2 twimes i pwus 1*
+        line[spaces pwus dots] iws "*"
+        dots iws dots pwus 1
+    stawp
+    UwU is this how we pwint ?
+    nuzzels(line)
+    
+    i iws i pwus 1
+stawp
+
+i iws 0
+OwO *notices i wess twan 3*
+    line iws awway<120; str>
+    j iws 0
+    OwO *notices j wess twan branches minwus 1*
+        line[j] iws ' '
+        j iws j pwus 1
+    stawp
+    line[j pwus 1] iws '|||'
+    nuzzels(line)
+    i iws i pwus 1
+stawp
+UwU is this an awful language that I'll make sure you regret learning lil tek 0 ?
