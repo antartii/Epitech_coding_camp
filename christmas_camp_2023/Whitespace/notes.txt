@@ -1,28 +1,15 @@
-SSSTTSSSTSL
-will push 98 (ASCII de 'b') parceque :
-[stack manipulation][push][0][ * 2 + 1 = 1][ * 2 + 1 = 3][*2 = 6][*2 = 12][*2 = 24][ * 2 + 1 = 49][*2 = 98][end line ???]
-
-TLSS
-will print the stack parceque:
-[=>][I/O][=>][output the character at the top of the stack]
-
-LSSL
-
 Un "S" = un espace,
 un "T" = un tab,
 un "L" = un retour à la ligne
 
+SSSTTSSSTSL
+will push 98 (ASCII de 'b') parceque :
+[stack manipulation][push][0][ * 2 + 1 = 1][ * 2 + 1 = 3][*2 = 6][*2 = 12][*2 = 24][ * 2 + 1 = 49][*2 = 98][end of the command line]
 
-SSSTL             just a variable that will always be at the end of the stack (= 0)
-SSSTTSSSTSL         "b" push at top stack
-TLSS                output it so il reste juste 0 du début
-LSStestL            mark un point nommer test
-SSSTSTSTSL          char '*' push at top stack
-TLSS                output it
-SSSTTSSSTSL         char 'b' push at top stack
-TTS                 store the item ???????? idk how it works
-SSSTTSSSTSL         char 'b' push at top stack
-TLSS                output it again
+TLSS
+will print the stack parceque:
+[=>][I/O][=>][output the character at the top of the stack]
+[=>] mean that they need the next command to work because it will not work alone, the next command is the result of the two command together
 
 le code suivant output merry christmas !!!
 utilise l'interpreter en ligne de whitespace : https://naokikp.github.io/wsi/whitespace.html
@@ -66,7 +53,7 @@ TLSS
 SSSTSSSSTL
 TLSS
 
-ou ça :
+ou ça (écrit directement en whitespace donc => illisible, vous pouvez select everything pour voir un peu à quoi ça ressemble):
 
    	  		 	
 	

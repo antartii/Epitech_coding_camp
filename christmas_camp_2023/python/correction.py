@@ -5,7 +5,6 @@ import random
 
 clear = lambda: os.system('clear') # can clear the window using clear()
 
-############################    CODE BELOW    ############################
 # try si le str est un int ou non
 def is_int(string):
     try:
@@ -31,7 +30,7 @@ def check_win(secret_word):
                 return False
     return True
 
-# vérifie les arguments, init = first time/"update" = every loop
+# vérifie les arguments, init = first time, update = every loop
 def check_args(args, state, letters_count):
     if (state == "init"):
         if (len(args) != 2):
@@ -103,5 +102,3 @@ while (not is_end):
             for i in range(1, len(args)):
                 secret_word[int(args[i]) - 1] = letter
     args = []
-
-############################    CODE ABOVE    ############################
