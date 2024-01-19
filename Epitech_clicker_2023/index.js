@@ -93,7 +93,7 @@ function add_credit(credit_added)
 function add_year(year_added)
 {
     years += year_added;
-    if (years >= 5) {
+    if (years >= 6) {
         win();
     }
 }
@@ -134,7 +134,7 @@ function win()
 }
 
 //button events
-epitech_el.addEventListener("click", function() {add_xp(200 + (1 * workshop_count)), show(), animate_epitech()});
+epitech_el.addEventListener("click", function() {add_xp(1 + (1 * workshop_count)), show(), animate_epitech()});
 buy_workshop_el.addEventListener("click", function() {buy_a_workshop(1), show()});
 buy_year_el.addEventListener("click", function() {buy_a_year(1), show()})
 
