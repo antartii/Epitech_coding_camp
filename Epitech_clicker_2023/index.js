@@ -39,7 +39,7 @@ function reset_values()
     price_year = 60;
 }
 
-function animate_epitech1()
+function animate_epitech()
 {
     if (epitech.style.width != "60%") {
         epitech_el.style.transition = "0s";
@@ -113,8 +113,13 @@ function buy_a_workshop(workshop_buyed)
 
 function buy_a_year(year_buyed)
 {
+    let old_GPA = GPA;
+
     if (credits >= price_year * year_buyed) {
         GPA = ((xp + (credits * 10) - 600) / (400 / 40)) / 10;
+        if (years > 0) {
+            GPA = (old_GPA * years + GPA) / (years + 1)
+        }
         credits -= price_year;
         add_year(1 * year_buyed);
         reset_values();
@@ -129,7 +134,7 @@ function win()
 }
 
 //button events
-epitech_el.addEventListener("click", function() {add_xp(1 + (1 * workshop_count)), show(), animate_epitech1()});
+epitech_el.addEventListener("click", function() {add_xp(200 + (1 * workshop_count)), show(), animate_epitech()});
 buy_workshop_el.addEventListener("click", function() {buy_a_workshop(1), show()});
 buy_year_el.addEventListener("click", function() {buy_a_year(1), show()})
 
