@@ -66,6 +66,8 @@ function add_credit(credit_added)
 {
     credits += credit_added;
     if (credits >= 100) {
+        xp = 0;
+        credits = 100;
         GPA = ((xp + (credits * 10) - 600) / (400 / 40)) / 10;
         add_year(Math.floor(credits / 100));
         reset_values();
