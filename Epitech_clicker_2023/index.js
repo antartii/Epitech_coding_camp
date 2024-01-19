@@ -8,6 +8,7 @@ let GPA_el = document.getElementById("GPA");
 let credits_el = document.getElementById("credit_count");
 let xp_el = document.getElementById("xp_count");
 let win_el = document.getElementById("win");
+document.getElement
 
 //workshop shop
 let price_workshop_el = document.getElementById("price_workshop");
@@ -110,7 +111,7 @@ function win()
 }
 
 //button events
-epitech_el.addEventListener("click", function() {add_xp(400 + (1 * workshop_count)), show()});
+epitech_el.addEventListener("click", function() {add_xp(1 + (1 * workshop_count)), show()});
 buy_workshop_el.addEventListener("click", function() {buy_a_workshop(1), show()});
 buy_year_el.addEventListener("click", function() {buy_a_year(1), show()})
 
