@@ -39,6 +39,22 @@ function reset_values()
     price_year = 60;
 }
 
+function animate_epitech1()
+{
+    if (epitech.style.width != "60%") {
+        epitech_el.style.transition = "0s";
+        epitech_el.style.width = "60%";
+    }
+    setTimeout(() => {
+        epitech_el.style.width = "57%";
+        epitech_el.style.transition = "0.05s";
+    }, 1);
+    setTimeout(() => {
+        epitech_el.style.transition = "0s";
+        epitech_el.style.width = "60%";
+    }, 50);
+}
+
 function show()
 {
     years_el.innerHTML = "year : " + years;
@@ -113,7 +129,7 @@ function win()
 }
 
 //button events
-epitech_el.addEventListener("click", function() {add_xp(1 + (1 * workshop_count)), show()});
+epitech_el.addEventListener("click", function() {add_xp(1 + (1 * workshop_count)), show(), animate_epitech1()});
 buy_workshop_el.addEventListener("click", function() {buy_a_workshop(1), show()});
 buy_year_el.addEventListener("click", function() {buy_a_year(1), show()})
 
